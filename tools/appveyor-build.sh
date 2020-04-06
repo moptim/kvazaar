@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 set -e
 
-export CC=gcc
+export CC=clang
 
 ./autogen.sh
 ./configure \
